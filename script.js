@@ -114,7 +114,7 @@ destination.addEventListener("click", function (e) {
   displayHome.classList.add("hidden");
 
   backgroundImage.style.backgroundImage =
-    "url(/images/background-destination-desktop.jpg)";
+    "url(./images/background-destination-desktop.jpg)";
   planetMoon.classList.remove("hidden");
   planetMoonRight.classList.remove("hidden");
   planetMoonDescription.classList.remove("hidden");
@@ -124,7 +124,7 @@ home.addEventListener("click", function (e) {
 
   displayHome.classList.remove("hidden");
   backgroundImage.style.backgroundImage =
-    "url(/images/background-home-desktop.jpg)";
+    "url(./images/background-home-desktop.jpg)";
   planetMoonRight.classList.add("hidden");
   hideMoonInfo();
   hideMarsInfo();
@@ -136,7 +136,7 @@ crew.addEventListener("click", function (e) {
   displayHome.classList.add("hidden");
   displayDestination.classList.add("hidden");
   backgroundImage.style.backgroundImage =
-    "url(/images/background-crew-desktop.jpg)";
+    "url(./images/background-crew-desktop.jpg)";
   hideMoonInfo();
   hideMarsInfo();
   hideEuropaInfo();
