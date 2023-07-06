@@ -309,7 +309,7 @@ a:hover + .line {
   }
   main {
     height: 200vh;
-    background-image: url(/images/background-home-mobile.jpg);
+    background-image: url(./images/background-home-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
